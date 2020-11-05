@@ -21,6 +21,9 @@ Data is collected from 4 different sources.
 
 4. ARIMAMAX model (Regression with ARIMA errors are considered for this type of data, which consists of ARIMA (Time Series Analysis) + Regression (Linear or Polynomial)
 
+
+
+
 Please note that minimal data preprocessing is done before loading files in Jupyter
 
 • Data is downloaded from respective information sources through their databases( i.e. AEMO database) by setting required parameters manually
