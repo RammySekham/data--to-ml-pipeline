@@ -8,7 +8,8 @@
 
 ## Introduction
 Title : CAN ELECTRICITY CONSUMPTION PATTERNS TELL US ANYTHING ABOUT THE PANDEMIC?
-More Info : http://www.datasciencemelbourne.com/datathon/2020_challengea/
+ 
+ **More Info : http://www.datasciencemelbourne.com/datathon/2020_challengea/
 
 ## Data sources
 Data is collected from 4 different sources.
