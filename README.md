@@ -1,9 +1,10 @@
 ## Table of contents
 * [Introduction](#Introduction)
 * [Data sources](#Data-sources)
-* [Key Points about Data](#Key-Points-about-Data)
-* [Information on data Preprocessing](#Information-on-data-Preprocessing])
-* [Techologies_Used](#Technologies_Used)
+* [Main data sets](#Main-data-sets)
+* [Key points about data](#Key-points-about-data)
+* [Information on data preprocessing](#Information-on-data-preprocessing])
+* [Technologies_used](#Technologies_used)
 * [References](#References)
 
 ## Introduction
@@ -21,6 +22,15 @@ Data is collected from 4 different sources.
 * BOM : Wealther data: Temperature http://www.bom.gov.au/climate/data/?ref=ftr
 
 * Holidays list Data Gov https://data.gov.au/dataset/ds-dga-b1bc6077-dadd-4f61-9f8c-002ab2cdff10/details?q=
+
+## Main Data Sets
+* AEMO - State, Total Demand, Date, Half hourly data (48 periods in a day), Year
+
+* ABS - State, Employment/Population Ratio, Popluation, Unemployment Rate, Month, Year
+
+* BOM - Daily Max Temperature, Daily Min Temperature, State, Year, Day
+
+* Holiday List - State, Year, Date, Holidayname
 
 
 ## Key Points about Data
