@@ -1,11 +1,13 @@
 ## Table of contents
 * [Introduction](#Introduction)
-* [Data sources](#Data sources)
-* [Key Points about Data](#Key Points about Data)
-* [Information on data Preprocessing](#Information on data Preprocessing])
+* [Data sources](#Data-sources)
+* [Key Points about Data](#Key-Points-about-Data)
+* [Information on data Preprocessing](#Information-on-data-Preprocessing])
+* [Techologies_Used](#Technologies_Used)
 * [References](#References)
 
 ## Introduction
+
 
 ## Data sources
 Data is collected from 4 different sources.
@@ -38,7 +40,9 @@ Data is collected from 4 different sources.
 
 * Data from ABS are curated manually by deleting all unnecessary or duplicated information to reduce the size of the files for easy file handling
 
-
+## Technologies Used
+* Jupyter-Python 3.8 (Pandas, Numpy, StatsModel, ScikitLearn, Matplotlib, os)
+* R
 
 ## References
 
