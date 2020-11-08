@@ -54,7 +54,9 @@ Data is collected from 4 different sources.
 
 ## Technologies Used
 * Jupyter-Python 3.8 (Pandas, Numpy, StatsModel, ScikitLearn, Matplotlib, os)
-* R
+* ARIMA with Regression Errors
+* Tableau for Dashboard
+
 
 ## References
 
