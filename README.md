@@ -1,6 +1,7 @@
 ### Table of contents
 * [Project Overview](#ProjectOverview)
 * [Code and Resources](#CodeandResources)
+* [Model Evaluation & Performance](#ModelEvaluation&Performance)
 * [Dashboard](#Dashboard)
 * [Instructions to run the code](#Instructionstorunthecode)
 * [References](#References)
@@ -17,11 +18,12 @@
  ##### More Info : [Melbourne Datathon 2020](http://www.datasciencemelbourne.com/datathon/2020_challengea/)
 
 ### Code and Resources
-#### Data is collected from four different sources
-     * AEMO website: [National Electricity Data] (https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data)
-     * ABS website: [Population and Employment Statistics] (https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/Browse+Statistics)
-     * BOM : [Wealther data: Temperature] (http://www.bom.gov.au/climate/data/?ref=ftr)
-     * Data Gov:[Holidays list](https://data.gov.au/dataset/ds-dga-b1bc6077-dadd-4f61-9f8c-002ab2cdff10/details?q=)
+#### Data is collected from four different sources 
+
+   ##### * AEMO website:[National Electricity Data](https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data)
+   ##### * ABS website: [Population and Employment Statistics](https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/Browse+Statistics)
+   ##### * BOM : [Weather data: Temperature](http://www.bom.gov.au/climate/data/?ref=ftr)
+   ##### * Data Gov:[Holidays list](https://data.gov.au/dataset/ds-dga-b1bc6077-dadd-4f61-9f8c-002ab2cdff10/details?q=)
 
 #### Tech Stack
      *Python verion : 3.8
