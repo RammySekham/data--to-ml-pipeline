@@ -1,11 +1,11 @@
-## Table of contents
+### Table of contents
 * [Project Overview](#ProjectOverview)
 * [Code and Resources](#CodeandResources)
 * [Dashboard](#Dashboard)
 * [Instructions to run the code](#Instructionstorunthecode)
 * [References](#References)
 
-## Project Overview
+### Project Overview
 ##### Title : CAN ELECTRICITY CONSUMPTION PATTERNS TELL US ANYTHING ABOUT THE PANDEMIC?
 ##### The project involves generating the electricty forecast for 2020 based on historic data and comparison of it with Actual consumption during Covid-19 period
       * Identified data sources, collected data and automated data pre-processing for future-use
@@ -16,7 +16,7 @@
 
  ##### More Info : [Melbourne Datathon 2020](http://www.datasciencemelbourne.com/datathon/2020_challengea/)
 
-## Code and Resources
+### Code and Resources
 #### Data is collected from four different sources
      * AEMO website: [National Electricity Data] (https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data)
      * ABS website: [Population and Employment Statistics] (https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/Browse+Statistics)
@@ -29,11 +29,11 @@
      *Flask Productionization = In progress
      *Data Visualization = Tableau Desktop 2020.3
 
-## Dashboard
+### Dashboard
 #### [Tableau Dashboard Link](https://public.tableau.com/profile/raman4374#!/vizhome/ElectricityConsumption_Australia/ElectricityConsumption)
 
 
-## Instructions to run the repository
+### Instructions to run the repository
 #### To run this repository on your system, please follow below steps.
      1. Clone the repo
      2. Open the jupyter with newly created folder
@@ -49,7 +49,7 @@
            * model    ## Create model and do predictions on created model
     
 
-## References
+### References
 
           *[Forecasting Principle and Practices: Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp2/)
 
