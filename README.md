@@ -20,10 +20,10 @@
 ### Code and Resources
 #### Data is collected from four different sources 
 
-   ##### * AEMO website:[National Electricity Data](https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data)
-   ##### * ABS website: [Population and Employment Statistics](https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/Browse+Statistics)
-   ##### * BOM : [Weather data: Temperature](http://www.bom.gov.au/climate/data/?ref=ftr)
-   ##### * Data Gov:[Holidays list](https://data.gov.au/dataset/ds-dga-b1bc6077-dadd-4f61-9f8c-002ab2cdff10/details?q=)
+   ###### * AEMO website:[National Electricity Data](https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data)
+   ###### * ABS website: [Population and Employment Statistics](https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/Browse+Statistics)
+   ###### * BOM : [Weather data: Temperature](http://www.bom.gov.au/climate/data/?ref=ftr)
+   ###### * Data Gov:[Holidays list](https://data.gov.au/dataset/ds-dga-b1bc6077-dadd-4f61-9f8c-002ab2cdff10/details?q=)
 
 #### Tech Stack
      *Python verion : 3.8
@@ -53,10 +53,10 @@
 
 ### References
 
-          *[Forecasting Principle and Practices: Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp2/)
+ ######  [Forecasting Principle and Practices: Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp2/)
 
-          *[Statsmodel](https://towardsdatascience.com/regression-with-arima-errors-3fc06f383d73#:~:text=%20Using%20Python%20and%20statsmodels%20to%20build%20a,fit...%205%20STEP%205%3A%20Prediction.%20%20More%20)
+   ###### [Statsmodel](https://towardsdatascience.com/regression-with-arima-errors-3fc06f383d73#:~:text=%20Using%20Python%20and%20statsmodels%20to%20build%20a,fit...%205%20STEP%205%3A%20Prediction.%20%20More%20)
 
-          *[Duke University Article] (http://people.duke.edu/~rnau/arimrule.htm)
+ ###### [Duke University](http://people.duke.edu/~rnau/arimrule.htm)
 
-          *[More from Duke University](http://people.duke.edu/~rnau/411arim.htm)
+   ###### [More from Duke University](http://people.duke.edu/~rnau/411arim.htm)
