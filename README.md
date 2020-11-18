@@ -1,36 +1,37 @@
 ## Table of contents
-* [Project Overview](#Project Overview)
-* [Code and Resources](#Code and Resources)
+* [Project Overview](#ProjectOverview)
+* [Code and Resources](#CodeandResources)
 * [Dashboard](#Dashboard)
-* [Instructions to run the code](#Instructions to run the code)
+* [Instructions to run the code](#Instructionstorunthecode)
 * [References](#References)
 
 ## Project Overview
-####Title : CAN ELECTRICITY CONSUMPTION PATTERNS TELL US ANYTHING ABOUT THE PANDEMIC?####
-The project involves generating the electricty forecast for 2020 based on historic data and comparison of it with Actual consumption during Covid-19 period
-* Identified data sources, collected data and automated data pre-processing for future-use
-* Performed Exploratory Data Analysis and data visualization in Jupyter Notebooks
-* Created a time series model SARIMA with OLS regression errors with (evaluation metric and score pending update)
-* Productionze the model using Flask app and analytics in Dash(Plotly)( In progress)
-* Built tableau dashboard/storyboards for data insights
- 
- **More Info : http://www.datasciencemelbourne.com/datathon/2020_challengea/
+#### Title : CAN ELECTRICITY CONSUMPTION PATTERNS TELL US ANYTHING ABOUT THE PANDEMIC ?####
+##### The project involves generating the electricty forecast for 2020 based on historic data and comparison of it with Actual consumption during Covid-19 period
+      * Identified data sources, collected data and automated data pre-processing for future-use
+      * Performed Exploratory Data Analysis and data visualization in Jupyter Notebooks
+      * Created a time series model SARIMA with OLS regression errors with (Optimization In progress)
+      * Productionze the model using Flask app and analytics in Dash(Plotly)(In progress)
+      * Built tableau dashboard/storyboards for data insights
+
+ ##### More Info : [Melbourne Datathon 2020](http://www.datasciencemelbourne.com/datathon/2020_challengea/)
 
 ## Code and Resources
-###Data is collected from 4 different sources.###
-* AEMO website: [National Electricity Data] (https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data)
-* ABS website: [Population and Employment Statistics] (https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/Browse+Statistics)
-* BOM : [Wealther data: Temperature] (http://www.bom.gov.au/climate/data/?ref=ftr)
-* Data Gov:[Holidays list](https://data.gov.au/dataset/ds-dga-b1bc6077-dadd-4f61-9f8c-002ab2cdff10/details?q=)
-###
-Python verion : 3.8
-Packages = pandas, Path, os, zipfile, matplotlib, statsmodels, numpy, pmdarima 
-           (use pip install -r requirements.txt)
-Flask Productionization = In progress
-Data Visualization = Tableau Desktop 2020.3
+#### Data is collected from 4 different sources
+     * AEMO website: [National Electricity Data] (https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data)
+     * ABS website: [Population and Employment Statistics] (https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/Browse+Statistics)
+     * BOM : [Wealther data: Temperature] (http://www.bom.gov.au/climate/data/?ref=ftr)
+     * Data Gov:[Holidays list](https://data.gov.au/dataset/ds-dga-b1bc6077-dadd-4f61-9f8c-002ab2cdff10/details?q=)
 
-##Dashboard
-You can also build visualization as such :https://public.tableau.com/profile/raman4374#!/vizhome/ElectricityConsumption_Australia/ElectricityConsumption
+#### Tech Stack
+     *Python verion : 3.8
+     *Packages = pandas, Path, os, zipfile, matplotlib, statsmodels, numpy, pmdarima 
+                (use pip install -r requirements.txt)
+     *Flask Productionization = In progress
+     *Data Visualization = Tableau Desktop 2020.3
+
+## Dashboard
+### [TABLEAU Dashboard Link](https://public.tableau.com/profile/raman4374#!/vizhome/ElectricityConsumption_Australia/ElectricityConsumption)
 
 
 ##Instructions to run the repository
