@@ -6,7 +6,7 @@
 * [References](#References)
 
 ## Project Overview
-#### Title : CAN ELECTRICITY CONSUMPTION PATTERNS TELL US ANYTHING ABOUT THE PANDEMIC ?####
+##### Title : CAN ELECTRICITY CONSUMPTION PATTERNS TELL US ANYTHING ABOUT THE PANDEMIC?
 ##### The project involves generating the electricty forecast for 2020 based on historic data and comparison of it with Actual consumption during Covid-19 period
       * Identified data sources, collected data and automated data pre-processing for future-use
       * Performed Exploratory Data Analysis and data visualization in Jupyter Notebooks
