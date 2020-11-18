@@ -1,0 +1,8 @@
+pandas
+Path
+os
+zipfile
+matplotlib
+statsmodels
+numpy
+pmdarima 
