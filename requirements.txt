@@ -3,6 +3,8 @@ Path
 os
 zipfile
 matplotlib
-statsmodels
+sklearn
 numpy
-pmdarima 
+pmdarima
+pickle
+statsmodels

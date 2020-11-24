@@ -11,8 +11,9 @@
 ##### The project involves generating the electricty forecast for 2020 based on historic data and comparison of it with Actual consumption during Covid-19 period
       * Identified data sources, collected data and automated data pre-processing for future-use
       * Performed exploratory data analysis and data visualization in Jupyter Notebooks
-      * Created a time series model SARIMA with OLS regression errors with (Optimization In progress to identify best evaluation metric & score)
-      * Productionize the model using Flask app and analytics in Dash(Plotly)( Build In progress)
+      * Created a time series ARIMA model, ARIMA model with regressors, Linear Regression, DecisionTree and Randomforest 
+      * Model is selected based on MAPE and RMSE, GridSearch is used to find the optimal parameters for model. The selcted model is RandomForest(MAPE = 6%, RMSE = 19000)
+      * Productionize the best selcted model using Flask app and analytics in Dash(Plotly)( Build In progress)
       * Built tableau dashboard/storyboards for data insights
 
  ##### More Info : [Melbourne Datathon 2020](http://www.datasciencemelbourne.com/datathon/2020_challengea/)
@@ -27,7 +28,7 @@
 
 #### Tech Stack
      *Python verion : 3.8
-     *Packages = pandas, Path, os, zipfile, matplotlib, statsmodels, numpy, pmdarima 
+     *Packages = pandas, Path, os, zipfile, matplotlib, statsmodels, numpy, pmdarima, sklearn, pickle
      *Flask Productionization = In progress
      *Data Visualization = Tableau Desktop 2020.3
 
@@ -48,15 +49,18 @@
            * process  ## Make adjustments in data i.e. Columns names, changing data types
            * eda      ## Do exploraryory Analysis, and also assemble data for Modelling
            * dataviz  ## Create powerful visualization with Matplotlib within the code
-           * model    ## Create model and do predictions on created model
-    
+           * model    ## Create model and do predictions on 
+created model
+           * predict  ## To create predictions on the new data  
 
 ### References
 
  ######  [Forecasting Principle and Practices: Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp2/)
 
-   ###### [Statsmodel](https://towardsdatascience.com/regression-with-arima-errors-3fc06f383d73#:~:text=%20Using%20Python%20and%20statsmodels%20to%20build%20a,fit...%205%20STEP%205%3A%20Prediction.%20%20More%20)
+ ###### [Hands on Machine Learning with Scikit-Learn]()
 
  ###### [Duke University](http://people.duke.edu/~rnau/arimrule.htm)
 
-   ###### [More from Duke University](http://people.duke.edu/~rnau/411arim.htm)
+ ###### [Pmdarima]()
+
+ ###### [Sklearn] ()
