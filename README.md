@@ -12,8 +12,8 @@
       * Performed exploratory data analysis and data visualization in Jupyter Notebooks
       * Created a time series ARIMA model, ARIMA model with regressors, Linear Regression model, DecisionTree model and Randomforest model 
       * Model is selected based on MAPE and RMSE, GridSearch is used to find the optimal parameters for model. 
-        The selcted model is RandomForest(MAPE = 6%, RMSE = 19000)
-      * Productionize the best selcted model using Flask app and analytics in Dash(Plotly)( Build In progress)
+        The selected model is RandomForest(MAPE = 6%, RMSE = 19000)
+      * Productionize the best selected model using Flask app and analytics in Dash(Plotly)(Build In progress)
       * Built tableau dashboard/storyboards for data insights
 
  ##### More Info : [Melbourne Datathon 2020](http://www.datasciencemelbourne.com/datathon/2020_challengea/)
@@ -38,8 +38,9 @@
 
 ### Instructions to run the repository
 #### To run this repository on your system, please follow below steps.
-     1. Clone the repo
-     2. Open the jupyter with newly created folder
+     1. Select directory ($ cd <directory>)
+     1. Clone the repo  ($ git clone <repo-url>)
+     2. Open the jupyter with newly created directory
         jupyter notebbook --notebook-dir "<path>/Datathon2020" (#Run on Bash, change the <path>)
      3. Install dependencies  
         pip install -r requirements.txt
@@ -60,6 +61,6 @@
 
  ###### [Duke University](http://people.duke.edu/~rnau/arimrule.htm)
 
- ###### [Pmdarima](https://alkaline-ml.com/pmdarima/modules/generated/pmdarima.arima.AutoARIMA.html)
+ ###### [Pmdarima documentation](https://alkaline-ml.com/pmdarima/modules/generated/pmdarima.arima.AutoARIMA.html)
 
- ###### [Sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
+ ###### [Sklearn documentation](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
