@@ -39,13 +39,13 @@
 ### Instructions to run the repository
 #### To run this repository on your system, please follow below steps.
      1. Select directory ($ cd <directory>)
-     1. Clone the repo  ($ git clone <repo-url>)
-     2. Open the jupyter with newly created directory
+     2. Clone the repo  ($ git clone <repo-url>)
+     3. Open the jupyter with newly created directory
         jupyter notebbook --notebook-dir "<path>/Datathon2020" (#Run on Bash, change the <path>)
-     3. Install dependencies  
+     4. Install dependencies  
         pip install -r requirements.txt
-     3. Check settings.py file to create folders to recieve processed files. Change as per requirements
-     4. Run the code in sequence
+     5. Check settings.py file to create folders to recieve processed files. Change as per requirements
+     6. Run the code in sequence
            * extract  ## Extract the data from the zipped folder
            * process  ## Make adjustments in data i.e. Columns names, changing data types
            * eda      ## Do exploraryory Analysis, and also assemble data for Modelling
@@ -59,7 +59,7 @@
 
  ###### [Hands on Machine Learning with Scikit-Learn](https://www.amazon.com.au/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=asc_df_1492032646/?tag=bingshopdesk-22&linkCode=df0&hvadid=&hvpos=&hvnetw=o&hvrand=&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=&hvtargid=pla-4583795269386355&psc=1)
 
- ###### [Duke University](http://people.duke.edu/~rnau/arimrule.htm)
+ ###### [Forecasting Methods and Applications](https://robjhyndman.com/forecasting/)
 
  ###### [Pmdarima documentation](https://alkaline-ml.com/pmdarima/modules/generated/pmdarima.arima.AutoARIMA.html)
 
