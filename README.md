@@ -1,7 +1,6 @@
 ### Table of contents
 * [Project Overview](#ProjectOverview)
 * [Code and Resources](#CodeandResources)
-* [Model Evaluation & Performance](#ModelEvaluation&Performance)
 * [Dashboard](#Dashboard)
 * [Instructions to run the code](#Instructionstorunthecode)
 * [References](#References)
@@ -11,8 +10,9 @@
 ##### The project involves generating the electricty forecast for 2020 based on historic data and comparison of it with Actual consumption during Covid-19 period
       * Identified data sources, collected data and automated data pre-processing for future-use
       * Performed exploratory data analysis and data visualization in Jupyter Notebooks
-      * Created a time series ARIMA model, ARIMA model with regressors, Linear Regression, DecisionTree and Randomforest 
-      * Model is selected based on MAPE and RMSE, GridSearch is used to find the optimal parameters for model. The selcted model is RandomForest(MAPE = 6%, RMSE = 19000)
+      * Created a time series ARIMA model, ARIMA model with regressors, Linear Regression model, DecisionTree model and Randomforest model 
+      * Model is selected based on MAPE and RMSE, GridSearch is used to find the optimal parameters for model. 
+        The selcted model is RandomForest(MAPE = 6%, RMSE = 19000)
       * Productionize the best selcted model using Flask app and analytics in Dash(Plotly)( Build In progress)
       * Built tableau dashboard/storyboards for data insights
 
@@ -49,18 +49,17 @@
            * process  ## Make adjustments in data i.e. Columns names, changing data types
            * eda      ## Do exploraryory Analysis, and also assemble data for Modelling
            * dataviz  ## Create powerful visualization with Matplotlib within the code
-           * model    ## Create model and do predictions on 
-created model
-           * predict  ## To create predictions on the new data  
+           * model    ## Create model 
+           * predict  ## To generate predictions/forecast on the new data  
 
 ### References
 
- ######  [Forecasting Principle and Practices: Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp2/)
+ ###### [Forecasting Principle and Practices: Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp2/)
 
- ###### [Hands on Machine Learning with Scikit-Learn]()
+ ###### [Hands on Machine Learning with Scikit-Learn](https://www.amazon.com.au/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=asc_df_1492032646/?tag=bingshopdesk-22&linkCode=df0&hvadid=&hvpos=&hvnetw=o&hvrand=&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=&hvtargid=pla-4583795269386355&psc=1)
 
  ###### [Duke University](http://people.duke.edu/~rnau/arimrule.htm)
 
- ###### [Pmdarima]()
+ ###### [Pmdarima](https://alkaline-ml.com/pmdarima/modules/generated/pmdarima.arima.AutoARIMA.html)
 
- ###### [Sklearn] ()
+ ###### [Sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
