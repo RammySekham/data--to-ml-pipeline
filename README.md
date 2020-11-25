@@ -13,10 +13,11 @@
       * Created a time series ARIMA model, ARIMA model with regressors, Linear Regression model, DecisionTree model and Randomforest model 
       * Model is selected based on MAPE and RMSE, GridSearch is used to find the optimal parameters for model. 
         The selected model is RandomForest(MAPE = 6%, RMSE = 19000)
-      * Productionize the best selected model using Flask app and analytics in Dash(Plotly)(Build In progress)
+      * Productionize the best selected model using Flask app
       * Built tableau dashboard/storyboards for data insights
 
  ##### More Info : [Melbourne Datathon 2020](http://www.datasciencemelbourne.com/datathon/2020_challengea/)
+ ##### Follow the link to view app : [FLASK APP](https://github.com/RammySekham/FlaskApp-Electricity-Prediction)
 
 ### Code and Resources
 #### Data is collected from four different sources 
